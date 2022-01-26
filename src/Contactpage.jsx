@@ -135,7 +135,7 @@ const Contactpage = () => {
                         <div className='form' >
                             <div>
                                 <label for="pic"><img src={image.toggle ? userimage : image.img} height="200px" width="200px" className='imageclass'></img></label>
-                                <input type="file" accept='/image*' id="pic" style={{ display: "none" }} onChange={getimage}></input>
+                                <input type="file" accept="image/*" id="pic" style={{ display: "none" }} onChange={getimage}></input>
                             </div>
                             <div className='formsection'>
                                 <label for="name">Name:</label>
