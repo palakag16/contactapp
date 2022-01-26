@@ -1,0 +1,90 @@
+
+
+.loginpage{
+  overflow:hidden;
+   margin:10rem 0rem;
+   align-items: center;
+   text-align: center;
+}
+.forms input{
+  margin:0.5rem 0rem;
+}
+
+.formpage{
+  width:100%;
+  display: inline-flex;
+  justify-content: space-between;
+  height:100vh;
+  align-items: center;
+  
+}
+.formimg{
+  width:50%;
+  padding:0rem 1rem 0rem 1rem;
+}
+.text2{
+  width:50%;
+  padding: 0rem 2rem;
+}
+.loginimg{
+  width:100%;
+  height:auto;
+  top:10rem;
+}
+.tagline{
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 2rem;
+}
+.login_btn{
+  background-color: blue;
+  margin:0.2rem 0.6rem;
+  width:max-content;
+  padding: 0.4rem 1.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  color:white;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.forminputs{
+  width:100%;
+  display: grid;
+  justify-content: center;
+  padding:0.5rem 0rem;
+}
+.formfield{
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding:0.4rem  0.7rem ;
+  height: 1.5rem;
+  width:14rem;
+}
+/* adminpage css */
+
+.loginbtns{
+  width:100%;
+  display:inline-flex;
+  justify-content: center;
+    align-items: center;
+}
+.exportpdf{
+  width:100%;
+  text-align: right;
+}
+.exportpdf span{
+  width:max-content;
+  font-size: 1.3rem;
+  border-radius: 2px solid blue;
+  font-family: sans-serif;
+  margin-top: -0.5rem;
+  background-color: blue;
+  margin-left:0.6rem;
+  padding:0.6rem 0.7rem;
+  color:white;
+  cursor: pointer;
+}

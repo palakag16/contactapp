@@ -1,0 +1,137 @@
+.body{
+    font-family: sans-serif;
+}
+.contactpagemain{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainBox{
+    height:500px;
+    width:50%;
+    background-color: lightskyblue;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.sec1{
+    width:50%;
+    height:100%;
+    /* background-color: brown; */
+    display:flex;
+    flex-direction: column;
+}
+.contactlistsec{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:80%;
+    scrollbar-width:  thin ;
+   
+}
+.contactlistsec::-webkit-scrollbar {
+    background-color: lightskyblue;
+    width: 8px;
+    height: 15px; 
+}
+.contactlistsec::-webkit-scrollbar-thumb {
+    background: blue;
+}
+.contactheading{
+    text-align: center;
+    font-size: 4rem;
+    padding:0.5rem;
+    border-bottom: 2px solid blue;
+}
+.contactlist{
+    height:3rem;
+    padding:0.5rem 0.5rem 0.5rem 2rem;
+    background-color: royalblue;
+    margin:0.3rem;
+    display: inline-flex;
+    align-items: center;
+    width:93%;
+    cursor: pointer;
+   
+}
+.addcontact{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: royalblue;
+    cursor: pointer;
+    border-top: 5px solid royalblue;
+}
+.imageclass{
+    border-radius: 50%;
+}
+.contactname{
+    width:100%;
+    padding-left: 3rem;
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+.sec2{
+    background-color: coral;
+    align-items: center;
+}
+.name{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.contactdetails{
+    width:100%;
+    padding-top: 2rem;
+    font-family: sans-serif;
+}
+.form{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otherdetailsec{
+    text-align: left;
+    padding: 1rem;
+    width:100%;
+    font-size: 1rem;
+}
+.formsection{
+    display: flex;
+    flex-direction: column;
+    margin:0.5rem 0rem 0.5rem 0.5rem;
+   width:70%;
+}
+.formsection label{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.formsection input{
+    height:1.8rem;
+    width:100%;
+    margin-top: 0.3rem;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 1.05rem;
+    padding-left: 0.5rem;
+}
+.submitcontact{
+    background-color: blue;
+    margin:0.2rem 0.6rem;
+    width:max-content;
+    padding: 0.4rem 1.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 25px;
+    color:white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
